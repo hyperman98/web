@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: aqua;
+    float:left;
+    width:100%;
+}
+ul {
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding-left:0;
+}
+
+li {
+    float:left;
+    margin: 0 10px 0 0;
+}
+
+.item {
+    display: inline-block;
+    width:250px;
+    background-color: azure;
+}
+
+.card {
+    padding: 25px;
+    width:300px;
+}
