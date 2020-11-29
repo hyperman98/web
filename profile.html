@@ -1,12 +1,17 @@
-<!DOCTYPE html>
+!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Profile</title>
     <link href="main.css" rel="stylesheet">
 </head>
 <body>
+    <style>
+        .content {
+            padding:50px;
+        }
+    </style>
     <div class="header">
         <h1>Heart</h1>
         <ul class="menu">
@@ -19,12 +24,13 @@
         </ul>
     </div>
     <div class="content">
-        <form method="POST">
+        <br><br><br><br>
+        <form method="POST" class="card">
             <h1>Личные данные пациента:</h1>
-            <input type="text" name="surname">
-            <input type="text" name="name">
-            <input type="text" name="patronymic">
-            <input type="tel" name="tel">
+            <input type="text" name="surname"><br><br>
+            <input type="text" name="name"><br><br>
+            <input type="text" name="patronymic"><br><br>
+            <input type="tel" name="tel"><br><br>
             <input type="submit" name="send" value="Далее">
         </form>
     </div>
